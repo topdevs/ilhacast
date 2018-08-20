@@ -11,7 +11,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    css: [
+      { src: 'bulma/bulma.sass', lang: 'sass' },
+      { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'}
     ]
+
   },
   /*
   ** Customize the progress bar color
