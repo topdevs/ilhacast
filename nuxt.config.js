@@ -13,7 +13,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     css: [
-      { src: 'bulma/bulma.sass', lang: 'sass' },
+      { src: '~/assets/css/main.scss', lang: 'scss' },
       { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'}
     ]
 
