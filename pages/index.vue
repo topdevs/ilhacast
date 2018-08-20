@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div>
+    <!-- <div>
       <app-logo/>
       <h1 class="title">
         ilhatech-spa
@@ -18,7 +18,7 @@
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 

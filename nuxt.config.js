@@ -10,13 +10,20 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Ilhatech SPA' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    css: [
-      { src: '~/assets/css/main.scss', lang: 'scss' },
-      { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'}
-    ]
-
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' } 
+    ]  
+  },
+  css: [
+    'bulma/css/bulma.css',
+    '~/assets/css/main.scss',
+    'font-awesome/css/font-awesome.css'
+  ],
+  render: {
+    bundleRenderer: {
+      shouldPreload: (file, type) => {
+        return ['script', 'style', 'font'].includes(type)
+      }
+    }
   },
   /*
   ** Customize the progress bar color
