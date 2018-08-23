@@ -18,6 +18,9 @@ module.exports = {
     '~/assets/css/main.scss',
     'font-awesome/css/font-awesome.css'
   ],
+  js: [
+    'gsap/TweenMax.js'
+  ],
   render: {
     bundleRenderer: {
       shouldPreload: (file, type) => {
@@ -36,6 +39,9 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: [
+      'gsap'
+    ],
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
