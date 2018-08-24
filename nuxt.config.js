@@ -14,9 +14,8 @@ module.exports = {
     ]  
   },
   css: [
-    'bulma/css/bulma.css',
-    '~/assets/css/main.scss',
-    'font-awesome/css/font-awesome.css'
+    { 'src': '~/assets/css/main.scss', 'lang': 'scss'},
+    { 'src': 'font-awesome/scss/font-awesome.scss', 'lang': 'scss'}
   ],
   js: [
     'gsap/TweenMax.js'
