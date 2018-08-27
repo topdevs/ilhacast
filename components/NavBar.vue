@@ -4,7 +4,7 @@
       <p>O melhor, mais top e mais pica ! </p>
     </div>
     <div class="container-item">
-      <logo />
+      <logo name="ilhacast" />
     </div>
 
     <div class="container-item align-right">
