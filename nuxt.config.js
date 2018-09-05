@@ -14,7 +14,7 @@ module.exports = {
     ]  
   },
   css: [
-    { 'src': '~/assets/css/main.scss', 'lang': 'scss'},
+    // { 'src': '~/assets/css/main.scss', 'lang': 'scss'},
     { 'src': 'font-awesome/scss/font-awesome.scss', 'lang': 'scss'}
   ],
   js: [
