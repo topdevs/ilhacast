@@ -7,63 +7,33 @@
       <logo name="ilhacast" />
     </div>
 
-    <div class="container-item align-right">
+    <div class="container-item">
       <div class="">
         <a href="https://github.com/topdevs/ilhacast">
-          <i class="fa fa-github-alt"> Github</i>
+          <i class="fa fa-github-alt"></i>
+          Github
         </a>
       </div>
     </div>
   </div>
 </template>
-<style>
-  p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* font-style: italic; */
+<style lang="scss" scoped>
+  .container-flex {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: azure;
+    background-color: rgba(0, 0, 0 , 0.9);
   }
 
   a {
     text-decoration: none;  
-    color: black;
+    color: azure;
   }
-  .container-shadow {
-    /* x y smoth strength */
-    box-shadow: 0px 1px 10px 0px; 
-    /* background-color: rgba(255, 255, 255, .9); */
-    -webkit-backdrop-filter: blur(100px);
-  }
-
-  .container-flex {
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
-    width: 100%;
-    /* padding 0 top 10 right 10 bottom 0 left */
-    padding: 0px 10px 10px 0px; 
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-
-  }
-  .container-item {
-    /* display: flex; */
-    flex: 1;
-    text-align: center;
-    /* background: red; */
-  }
-  .align-right {
-    text-align: right;
-  }
-
-  .align-left {
-    text-align: left;
-  }
-
 </style>
 
 
 <script>
-import logo from '~/components/IlhacastLogo'
+import logo from '~/components/Logo'
 export default {
   components: {
     logo
