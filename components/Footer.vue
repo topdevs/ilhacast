@@ -42,10 +42,12 @@ ul {
 }
 
 .container-flex {
-  padding-top: 20px;
+  
+  padding-top: 80px;
   padding-left: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   font-family: RobotoThin;
+  flex: 1;
 }
 
 p {
@@ -53,9 +55,13 @@ p {
 }
 
 .footer {
-  color:azure;
+  color:rgba(255, 255, 255, 0.8);;
   background-color: rgba(0, 0, 0, .9);
   position: absolute;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
