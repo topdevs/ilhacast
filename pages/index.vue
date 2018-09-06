@@ -122,7 +122,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat; 
   background-size: contain;
-  box-shadow: 1px 1px 5px tomato;
+  /* box-shadow: 1px 1px 5px tomato; */
 }
 
 .host__avatar__subtitle {
