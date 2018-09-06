@@ -1,5 +1,5 @@
 <template>
-  <div id="myApp">
+  <div id="myApp" >
     <nav-bar></nav-bar>
     <nuxt/>
     <Footer />
@@ -36,6 +36,11 @@ export default {
    padding: 0;
    font-family: RobotoThin;
   }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
   .container-shadow {
     box-shadow: 2px 1px 10px 2px;  /* x, y, smoth, strength */
     -webkit-backdrop-filter: blur(100px);
