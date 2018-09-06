@@ -1,5 +1,5 @@
 <template>
-  <div class="container-flex container-shadow">
+  <div class="container-flex">
     <div class="container-item">
       <p>O melhor, mais top e mais pica ! </p>
     </div>
