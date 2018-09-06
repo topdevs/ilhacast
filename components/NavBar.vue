@@ -22,7 +22,7 @@
     padding-top: 10px;
     padding-bottom: 15px;
     color: azure;
-    background-color: rgba(0, 0, 0 , 0.9);
+    background-color: rgba(15, 15, 15 , 1);
   }
 
   a {
