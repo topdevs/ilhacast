@@ -1,24 +1,28 @@
 <template>
   <div class="index">
-    <section class="section">      
+    <section class="section bg-white--invert">      
       <p class="section__title--sample">
-        <a href="#hosts">#1</a>&nbsp;
         <a class="h1">Frase de efeito</a>
       </p>
+      <br>
+      <h4>algo sobre nós e do que falamos</h4>
+      <h4>nosso mascote pode vir aqui</h4>
       
       <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cumque error perferendis nostrum fugit fugiat nulla optio atque? Reprehenderit sequi aliquid minima nihil et esse deleniti, fugit aperiam ullam quisquam.</p>    
+      <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cumque error perferendis nostrum fugit fugiat nulla optio atque? Reprehenderit sequi aliquid minima nihil et esse deleniti, fugit aperiam ullam quisquam.</h1>     -->
     </section>
-    <section class="section bg-gray bg-sea">
+    <section class="section bg-white">
       <h1>Logos, um banner ou icones de tecnologias e parceiros talvez</h1>
+      <br>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
   
     </section>
-     <section id="hosts" class="section ">
+     <section id="hosts" class="section bg-white--invert">
        <div class="section__title">
         <h1>Hosts</h1>
        </div>
       <div class="section__hosts">
-      <div class="host__avatar" @click.native="alert('modal bacana (?)')">
+      <div class="host__avatar host__avatar--first" @click.native="alert('modal bacana (?)')">
         <p class="host__avatar__subtitle">Jhon</p>
       </div>
       <div class="host__avatar" @click.native="alert('modal bacana (?)')">
@@ -48,11 +52,21 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  /* filter: invert(100%); */
 
 }
 .bg-gray {
   background-color: rgb(232, 231, 231);
 }
+.bg-white--invert {
+  background: rgba(255, 255, 255, .9);
+  filter: invert(100%);
+}
+.bg-white {
+  background: rgba(255, 255, 255, 1);
+  /* filter: invert(100%); */
+}
+
 .bg-sea {
   background: url('~static/bg.jpg');
   background-position: center;
@@ -94,9 +108,12 @@ export default {
 .section:hover {
   height: 300px;
 }
+.section--first {
+  color: azure;
+}
 .section__title--sample a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 .section__title {
   flex: 1;
@@ -110,9 +127,14 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.host__avatar--first {
+  margin-left: 0;
 }
 .host__avatar {
-  margin-left: 50px;
+  margin: 20px;
   background: gray;
   width: 150px;
   height: 150px;
