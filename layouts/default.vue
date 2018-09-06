@@ -69,7 +69,7 @@ export default {
     text-align: left;
   }
   #myApp {
-    /* background-image: url('/static/bg.jpg'); */
+    background-image: url('/static/circuitos-eletricos.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
