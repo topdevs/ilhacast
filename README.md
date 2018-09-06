@@ -1,6 +1,7 @@
-# ilhatech-spa
+# ilhacast
 
-> Ilhatech SPA
+> Ilhacast SPA
+Official ilhacast website !!
 
 ## Build Setup
 
