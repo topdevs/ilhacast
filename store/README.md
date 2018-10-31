@@ -8,4 +8,5 @@ More information about the usage of this directory in the documentation:
 https://nuxtjs.org/guide/vuex-store
 
 **This directory is not required, you can delete it if you don't want to use it.**
+# Vuex para armazenar a lista de links para os arquivos estaticos de download
 
